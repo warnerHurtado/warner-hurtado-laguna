@@ -1,27 +1,87 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+}
+
+.main-container {
+  max-width: 1280px;
+  margin: auto;
+  min-height: 90vh;
+  padding: 64px;
+}
+
+nav {
+  background: #f2f2f2;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+}
+
+footer {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  min-height: 250px;
+}
+
+[data-theme="dark"] footer,
+[data-theme="dark"] nav {
+  background: #4f4f4f;
+}
+
+nav .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-left-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.light-theme-selector-icon,
+.dark-theme-selector-icon {
+  background-color: transparent;
+  border-radius: 4px;
+  box-sizing: content-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  height: 1em;
+  margin: 4px;
+  padding: 8px 16px;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  user-select: none;
+  width: 1em;
+}
+
+.light-theme-selector-icon {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+.light-theme-selector-icon:hover {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: rgb(255, 255, 255);
+}
+
+.dark-theme-selector-icon:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.87);
 }
