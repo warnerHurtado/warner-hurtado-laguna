@@ -1,10 +1,14 @@
 import Image from "next/image";
 
-// import { LanguageSelector } from "../LanguageSelector";
+import { LanguageSwicher } from "../LanguageSwicher";
 import { ThemeSwicher } from "../ThemeSwicher";
 import VercelIcon from "../../../../../../public/vercel.svg";
 
-export const Header: React.FC = () => {
+type LayoutProps = {
+    lng: string
+}
+
+export const Header: React.FC<LayoutProps> = ({ lng }) => {
     return (
         <nav>
             <div className="container">
@@ -19,6 +23,7 @@ export const Header: React.FC = () => {
                 </div>
                 <div className="nav-right-container">
                     {/* <LanguageSelector lng={lng} /> */}
+                    <LanguageSwicher lng={lng} />
                     <ThemeSwicher />
                 </div>
             </div>

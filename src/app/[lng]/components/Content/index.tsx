@@ -1,14 +1,15 @@
 // import { Footer } from "./Footer";
 import { Header } from "./Header";
 
-type LayoutProps = {
-  children?: React.ReactNode;
+type ContentBaseProps = {
+  children?: React.ReactNode
+  lng: string
 };
 
-export const ContentBase: React.FC<LayoutProps> = ({ children }) => {
+export const ContentBase: React.FC<ContentBaseProps> = ({ children, lng }) => {
   return (
     <>
-      <Header />
+      <Header lng={lng} />
       <div className="main-container">{children}</div>
       {/* <Footer lng={lng} /> */}
     </>
