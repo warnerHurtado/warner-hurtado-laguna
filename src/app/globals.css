@@ -1,23 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  color: #000;
-  background-color: #fff;
 }
 
-[data-theme="dark"] body {
-  color: #fff;
-  background-color: #000;
-}
 
 .main-container {
   max-width: 1280px;
   margin: auto;
   min-height: 90vh;
-  padding: 64px;
+  padding: 32px 64px;
 }
 
 nav {
-  background: #f2f2f2;
   min-height: 80px;
   display: flex;
   align-items: center;
@@ -25,16 +22,10 @@ nav {
 }
 
 footer {
-  background: #f2f2f2;
   display: flex;
   align-items: center;
   padding: 0 32px;
-  min-height: 250px;
-}
-
-[data-theme="dark"] footer,
-[data-theme="dark"] nav {
-  background: #4f4f4f;
+  min-height: 200px;
 }
 
 nav .container {
@@ -91,4 +82,14 @@ nav .container {
 .dark-theme-selector-icon:hover {
   background-color: rgb(255, 255, 255);
   color: rgba(0, 0, 0, 0.87);
+}
+
+@media only screen and (max-width: 920px) {
+  .main-container {
+    padding: 16px 32px;
+  }
+
+  nav {
+    padding: 0 16px;
+  }
 }

@@ -1,8 +1,10 @@
 "use client";
 
-import { locales } from "@/i18n";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname } from "next/navigation"
+
+import { locales } from "@/i18n";
+
 
 type LayoutProps = {
     lng: string

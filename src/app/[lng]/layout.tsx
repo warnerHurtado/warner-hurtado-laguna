@@ -33,7 +33,7 @@ export default function RootLayout({
 }: LayoutProps) {
 
   return (
-    <html lang={lng}>
+    <html lang={lng} >
       <body className={inter.className}>
         <Providers>
           <ContentBase lng={lng}>

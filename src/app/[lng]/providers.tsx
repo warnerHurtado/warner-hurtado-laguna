@@ -16,7 +16,9 @@ const Providers: React.FC<ProvidersProps> = ({ children }) => {
 
     if (!mounted) return <>{children}</>;
 
-    return <ThemeProvider>{children}</ThemeProvider>
+    return <ThemeProvider attribute='class'>
+        {children}
+    </ThemeProvider>
 }
 
 export default Providers

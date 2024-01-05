@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { LanguageSwicher } from "../LanguageSwicher";
 import { ThemeSwicher } from "../ThemeSwicher";
-import VercelIcon from "../../../../../../public/vercel.svg";
+import VercelIcon from "../../../../../../public/icons/favicon.svg";
 
 type LayoutProps = {
     lng: string
@@ -10,19 +10,18 @@ type LayoutProps = {
 
 export const Header: React.FC<LayoutProps> = ({ lng }) => {
     return (
-        <nav>
+        <nav className="dark:bg-slate-700 dark:text-white bg-slate-200">
             <div className="container">
                 <div className="nav-left-container">
                     <Image
                         src={VercelIcon}
-                        height={64}
-                        width={100}
+                        width={80}
                         alt="Warner Hurtado Icon"
+                        priority
                     />
-                    <div>Warner Hurtado Laguna</div>
+                    <div >Warner Hurtado Laguna</div>
                 </div>
                 <div className="nav-right-container">
-                    {/* <LanguageSelector lng={lng} /> */}
                     <LanguageSwicher lng={lng} />
                     <ThemeSwicher />
                 </div>

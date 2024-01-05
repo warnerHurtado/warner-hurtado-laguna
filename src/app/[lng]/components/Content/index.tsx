@@ -1,4 +1,4 @@
-// import { Footer } from "./Footer";
+import { Footer } from "./Footer";
 import { Header } from "./Header";
 
 type ContentBaseProps = {
@@ -11,7 +11,7 @@ export const ContentBase: React.FC<ContentBaseProps> = ({ children, lng }) => {
     <>
       <Header lng={lng} />
       <div className="main-container">{children}</div>
-      {/* <Footer lng={lng} /> */}
+      <Footer />
     </>
   );
 };

@@ -1,5 +1,10 @@
 {
     "Index": {
-      "title": "Hola mundo!"
+      "title": "Hola mundo, Soy Warner Hurtado",
+      "available": "Disponible para trabajar",
+      "experience": "+4 años de experiencia. ",
+      "position": "Ingeniero en Software",
+      "location": " De Quesada, Alajuela Costa Rica",
+      "specialization": " Especializado en Frontend, creando aplicaciones tanto móbiles como web."
     }
-  }
+}
