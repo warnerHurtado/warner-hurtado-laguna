@@ -1,6 +1,6 @@
 import React from "react";
 
-import LinkedinIcon from "../../SvgIcons/Linkedin";
+import LinkedInIcon from "../../SvgIcons/Linkedin";
 import GitHubIcon from "../../SvgIcons/GitHub";
 import GmailIcon from "../../SvgIcons/Gmail";
 
@@ -13,11 +13,11 @@ const ButtonSocialPill: React.FC<ButtonSocialPillProps> = ({
     link,
     text
 }) => {
-    const icons = {
-        LinkedIn: LinkedinIcon,
-        GitHub: GitHubIcon,
-        default: GmailIcon
-    }
+    const icons: { [key: string]: () => JSX.Element } = {
+        LinkedIn: () => <LinkedInIcon />,
+        GitHub: () => <GitHubIcon />,
+        default: () => <GmailIcon />,
+      };
 
     const Icon = icons[text] || icons.default;
 
