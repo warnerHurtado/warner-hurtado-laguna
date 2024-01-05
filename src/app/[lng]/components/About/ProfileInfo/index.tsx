@@ -8,8 +8,7 @@ import ButtonSocialPill from '../ButtonSocialPill'
 export const ProfileInfo: React.FC = () => {
     const t = useTranslations('Index')
 
-
-    return <div >
+    return <div>
         <div className='mt-5 lg:mt-2'>
             <Image
                 priority
@@ -45,7 +44,8 @@ export const ProfileInfo: React.FC = () => {
                 .
                 <span className="text-red-800 dark:text-red-200">
                     {t('location')}
-                </span>.
+                </span>
+                .
                 <span className="text-sky-800 dark:text-sky-200" >
                     {t('specialization')}
                 </span>

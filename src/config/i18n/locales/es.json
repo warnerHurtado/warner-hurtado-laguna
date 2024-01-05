@@ -6,5 +6,11 @@
       "position": "Ingeniero en Software",
       "location": " De Quesada, Alajuela Costa Rica",
       "specialization": " Especializado en Frontend, creando aplicaciones tanto móbiles como web."
-    }
+    },
+    "Footer": {
+      "rights": " Todos los derechos reservados",
+      "aboutMe": "Sobre mí",
+      "contact": "Contacto"
+      }
+      
 }

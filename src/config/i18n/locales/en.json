@@ -6,6 +6,11 @@
       "position": "Software Engineer",
       "location": " From Quesada, Alajuela, Costa Rica",
       "specialization": " Specialized in Frontend, creating both mobile and web applications."
-    
+    },
+    "Footer": {
+      "rights": " All rights reserved",
+      "aboutMe": "About me",
+      "contact": "Contact"
     }
+
   }
