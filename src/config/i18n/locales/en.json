@@ -1,16 +1,48 @@
 {
-    "Index": {
-      "title": "Hello world, I am Warner Hurtado",
-      "available": "Available to work",
-      "experience": "+4 years of experience. ",
-      "position": "Software Engineer",
-      "location": " From Quesada, Alajuela, Costa Rica",
-      "specialization": " Specialized in Frontend, creating both mobile and web applications."
-    },
-    "Footer": {
-      "rights": " All rights reserved",
-      "aboutMe": "About me",
-      "contact": "Contact"
-    }
-
+  "Index": {
+    "title": "Hello world, I am Warner Hurtado",
+    "available": "Available to work",
+    "experience": "+4 years of experience. ",
+    "position": "Software Engineer",
+    "location": " From Quesada, Alajuela, Costa Rica",
+    "specialization": " Specialized in Frontend, creating both mobile and web applications."
+  },
+  "Footer": {
+    "rights": " All rights reserved",
+    "aboutMe": "About me",
+    "contact": "Contact"
+  },
+  "Header": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "about": "About me"
+  },
+  "Experience": {
+    "workExperience": "Work experience",
+    "jobPosition1": "Software Engineer - Edenia Labs - San José, Costa Rica",
+    "jobDescription1": "I have been working as a fullstack engineer and frontend engineer, learning and developing decentralized applications. I have been working with technologies like JavaScript, HTML, Cascading Style Sheets (CSS), Material UI, Git, React, NextJs, Node with Hapi, Postgres, and GraphQL. Edenia is a company where we design and develop world-class innovative web3 solutions and applications using the latest in Industry 4.0 technologies.",
+    "jobTime1": "June 2022 - September 2023",
+    "jobPosition2": "Software Engineer - Comunidad de Aplicaciones Móviles - ITCR — Instituto Tecnológico de Costa Rica",
+    "jobDescription2": "I was working as a fullstack engineer and frontend engineer, learning and developing web applications. I worked with technologies like Angular 9+, HTML, Cascading Style Sheets (CSS), Bootstrap, Angular Material, SQL Server, and Node.js with Express. The Comunidad de Aplicaciones Móviles is a community dedicated to sharing learning, web development, and mobile applications, comprised of computer students but open to anyone who wants to learn.",
+    "jobTime2": "September 2019 - June 2022",
+    "jobPosition3": "",
+    "jobDescription3": "",
+    "jobTime3": "",
+    "jobPosition4": "",
+    "jobDescription4": "",
+    "jobTime4": ""
+  },
+  "Projects": {
+    "projects": "Projects",
+    "knowMore": "Know more...",
+    "smartgate": "Working on the creation of a new website for the brand, where I have created various sections to showcase the product for sale. Essentially, this website has been crafted with optimal performance and SEO to ensure improved indexing on Google, reaching a wider audience.",
+    "crServers": "Working on the creation of a new website for the brand, where I have created various sections to showcase the product for sale. Essentially, this website has been crafted with optimal performance and SEO to ensure improved indexing on Google, reaching a wider audience.",
+    "eden": "Working on the development of a decentralized web application, we utilized technologies such as EOSIO (blockchain) to create a smart contract and facilitate changes inherited from other accounts. EOS Spend Explorer serves as a data collection and visualization mechanism, offering insightful information about the allocation of funds within EOS communities. This MVP primarily focuses on the Eden Community Treasury as its initial use case.",
+    "devesa": "Working on the development of a new website for the Devesa area of the Instituto Tecnológico de Costa Rica, where employees can have better administration of documentation related to procedures and the institution's rentals. In this project I was in charge of the development of some sections or views of the frontend and also in charge of the development of the backend.",
+    "odonto": "Working on the development of a new website for the Odontology area of the Instituto Tecnológico de Costa Rica, where dentists can have better control over appointments, student information, tooth-related details, and much more related to that branch. In this project I was in charge of the development of some sections or views of the frontend."
+  },
+  "commonKeys": {
+    "knowMore": "Know more..."
   }
+}

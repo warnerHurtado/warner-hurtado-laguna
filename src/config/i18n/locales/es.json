@@ -1,16 +1,41 @@
 {
-    "Index": {
-      "title": "Hola mundo, Soy Warner Hurtado",
-      "available": "Disponible para trabajar",
-      "experience": "+4 años de experiencia. ",
-      "position": "Ingeniero en Software",
-      "location": " De Quesada, Alajuela Costa Rica",
-      "specialization": " Especializado en Frontend, creando aplicaciones tanto móbiles como web."
-    },
-    "Footer": {
-      "rights": " Todos los derechos reservados",
-      "aboutMe": "Sobre mí",
-      "contact": "Contacto"
-      }
-      
+  "Index": {
+    "title": "Hola mundo, Soy Warner Hurtado",
+    "available": "Disponible para trabajar",
+    "experience": "+4 años de experiencia. ",
+    "position": "Ingeniero en Software",
+    "location": " De Quesada, Alajuela Costa Rica",
+    "specialization": " Especializado en Frontend, creando aplicaciones tanto móbiles como web."
+  },
+  "Footer": {
+    "rights": " Todos los derechos reservados",
+    "aboutMe": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "Header": {
+    "experience": "Experiencia",
+    "projects": "Projectos",
+    "education": "Educación",
+    "about": "Acerca mí"
+  },
+  "Experience": {
+    "workExperience": "Experiencia laboral",
+    "jobPosition1": "Ingeniero de Software - Edenia Labs - San José, Costa Rica",
+    "jobDescription1": "He estado trabajando como ingeniero de desarrollo completo (fullstack) e ingeniero frontend, aprendiendo y desarrollando aplicaciones descentralizadas. He trabajado con tecnologías como JavaScript, HTML, Cascading Style Sheets (CSS), Material UI, Git, React, NextJs, Node con Hapi, Postgres y GraphQL. Edenia es una empresa donde se diseñan y desarrollan soluciones y aplicaciones web3 innovadoras de clase mundial utilizando lo último en tecnologías de la Industria 4.0.",
+    "jobTime1": "Junio de 2022 - Septiembre de 2023",
+    "jobPosition2": "Ingeniero de Software - Comunidad de Aplicaciones Móviles - ITCR — Instituto Tecnológico de Costa Rica",
+    "jobDescription2": "Trabajé como ingeniero de desarrollo completo (fullstack) e ingeniero frontend, aprendiendo y desarrollando aplicaciones web. Trabajé con tecnologías como Angular 9+, HTML, Cascading Style Sheets (CSS), Bootstrap, Angular Material, SQL Server y Node.js con Express. La Comunidad de Aplicaciones Móviles es una comunidad dedicada a compartir aprendizaje, desarrollo web y aplicaciones móviles, conformada por estudiantes de informática pero abierta a cualquier persona que quiera aprender.",
+    "jobTime2": "Septiembre de 2019 - Junio de 2022"
+  },
+  "Projects": {
+    "projects": "Projectos",
+    "knowMore": "Saber más...",
+    "smartgate": "Trabajando en la creación de un nuevo sitio web para la marca, donde he creado diferentes secciones para mostrar el producto a la venta. Básicamente, este sitio web ha sido desarrollado con el mejor rendimiento y SEO para garantizar una indexación mejor en Google, llegando así a más personas.",
+    "crServers": "Trabajando en la creación de un nuevo sitio web para la marca, donde he creado diferentes secciones para mostrar el producto a la venta. Básicamente, este sitio web ha sido desarrollado con el mejor rendimiento y SEO para garantizar una indexación mejor en Google, llegando así a más personas.",
+    "eden": "Trabajando en el desarrollo de una aplicación web descentralizada, utilizamos tecnologías como EOSIO (blockchain) para crear un contrato inteligente y gestionar cambios heredados de otras cuentas. EOS Spend Explorer actúa como un mecanismo de recopilación y visualización de datos, proporcionando información perspicaz sobre la asignación de fondos en las comunidades de EOS. Este MVP se enfoca principalmente en el Tesoro de la Comunidad Eden como su caso de uso inicial.",
+    "devesa": "Trabajando en el desarrollo de un nuevo sitio web para el área de Devesa del Instituto Tecnológico de Costa Rica, donde los empleados pueden tener una mejor administración de la documentación relacionada con procedimientos y alquileres de la institución. En este proyecto, me encargué del desarrollo de algunas secciones o vistas del frontend y también estuve a cargo del desarrollo del backend.",
+    "odonto": "Trabajando en el desarrollo de un nuevo sitio web para el área de Odontología del Instituto Tecnológico de Costa Rica, donde los dentistas pueden tener un mejor control sobre las citas, la información de los estudiantes, detalles relacionados con los dientes y mucho más en relación con esa rama. En este proyecto, estuve a cargo del desarrollo de algunas secciones o vistas del frontend."  },
+  "commonKeys": {
+    "knowMore": "Saber más..."
+  }
 }
