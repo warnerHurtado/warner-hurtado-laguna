@@ -1,11 +1,10 @@
 import { EducationInformation } from "../components/Education/EducationInformation"
 
-const Education = () => {
+const Education: React.FC = () => {
   return (
-    <div>
-        <h1>Education Section</h1>
+    <>
         <EducationInformation />
-    </div>
+    </>
   )
 }
 

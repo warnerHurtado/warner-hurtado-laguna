@@ -42,6 +42,24 @@
     "devesa": "Working on the development of a new website for the Devesa area of the Instituto Tecnológico de Costa Rica, where employees can have better administration of documentation related to procedures and the institution's rentals. In this project I was in charge of the development of some sections or views of the frontend and also in charge of the development of the backend.",
     "odonto": "Working on the development of a new website for the Odontology area of the Instituto Tecnológico de Costa Rica, where dentists can have better control over appointments, student information, tooth-related details, and much more related to that branch. In this project I was in charge of the development of some sections or views of the frontend."
   },
+  "Education": {
+    "education": "Education",
+    "knowMore":"Know more...",
+    "titleDate1": "February 2019 - November 2023",
+    "titleDescription1": "Bachelor of Software Engineering",
+    "institution1": "Instituto Tecnológico de Costa Rica",
+    "titleDate2": "February 2013 - November 2016",
+    "titleDescription2": "Mediun Technician in Bussines Informatics",
+    "institution2": "Colegio Técnico Profesional de Platanar",
+    "titleDescription3": "Bachelor of Secundary Educantion",
+    "courses": "Certification & Courses",
+    "courseInstitution1": "Udemy",
+    "courseTitle1": "Flutter - Mobile: From Cero to Expert",
+    "courseTitle2": "Creation of Webservice with Node JS and SQL Server",
+    "courseTitle3": "React JS: From Cero to Expert",
+    "courseTitle4": "Node: From Cero to Expert",
+    "courseTitle5": "Solid and Clean Code Principles"
+  },
   "commonKeys": {
     "knowMore": "Know more..."
   }

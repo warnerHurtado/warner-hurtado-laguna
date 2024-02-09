@@ -35,7 +35,25 @@
     "eden": "Trabajando en el desarrollo de una aplicación web descentralizada, utilizamos tecnologías como EOSIO (blockchain) para crear un contrato inteligente y gestionar cambios heredados de otras cuentas. EOS Spend Explorer actúa como un mecanismo de recopilación y visualización de datos, proporcionando información perspicaz sobre la asignación de fondos en las comunidades de EOS. Este MVP se enfoca principalmente en el Tesoro de la Comunidad Eden como su caso de uso inicial.",
     "devesa": "Trabajando en el desarrollo de un nuevo sitio web para el área de Devesa del Instituto Tecnológico de Costa Rica, donde los empleados pueden tener una mejor administración de la documentación relacionada con procedimientos y alquileres de la institución. En este proyecto, me encargué del desarrollo de algunas secciones o vistas del frontend y también estuve a cargo del desarrollo del backend.",
     "odonto": "Trabajando en el desarrollo de un nuevo sitio web para el área de Odontología del Instituto Tecnológico de Costa Rica, donde los dentistas pueden tener un mejor control sobre las citas, la información de los estudiantes, detalles relacionados con los dientes y mucho más en relación con esa rama. En este proyecto, estuve a cargo del desarrollo de algunas secciones o vistas del frontend."  },
-  "commonKeys": {
+    "Education": {
+      "education": "Educación",
+      "knowMore": "Saber más...",
+      "titleDate1": "Febrero 2019 - Noviembre 2023",
+      "titleDescription1": "Bachillerato en Ingeniero en Software",
+      "institution1": "Instituto Tecnológico de Costa Rica",
+      "titleDate2": "Febrero 2013 - Noviembre 2016",
+      "titleDescription2": "Medio Técnico en Informática Empresarial",
+      "institution2": "Colegio Técnico Profesional de Platanar",
+      "titleDescription3": "Bachillerato en Educación Media",
+      "courses": "Certificaciones & Cursos",
+      "courseInstitution1": "Udemy",
+      "courseTitle1": "Flutter - Mobile: From Cero to Expert",
+      "courseTitle2": "Creation of Webservice with Node JS and SQL Server",
+      "courseTitle3": "React JS: From Cero to Expert",
+      "courseTitle4": "Node: From Cero to Expert",
+      "courseTitle5": "Solid and Clean Code Principles"
+    },
+    "commonKeys": {
     "knowMore": "Saber más..."
   }
 }
