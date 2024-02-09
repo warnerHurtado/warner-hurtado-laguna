@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
-import { ExperienceTextFormat } from '../ExperienceTextFormat'
+
 import { jobsExperience } from '@/config/constants/experience'
+import { DescriptionInfo } from '../../CommonComponents/DescriptionInfo'
 
 export const ExperienceInformation: React.FC = () => {
     const t = useTranslations('Experience')
@@ -14,12 +15,13 @@ export const ExperienceInformation: React.FC = () => {
             <ol className="relative border-s border-gray-200 ml-3">
                 {
                     jobsExperience.map(job => (
-                        <ExperienceTextFormat
+                        <DescriptionInfo
                             key={job.id}
-                            jobPosition={t(job.jobPosition)}
-                            jobDescription={t(job.jobDescription)}
-                            jobTime={t(job.jobTime)}
-                            linkMoreInfo={job.urlMoreInfo}
+                            title={t(job.jobPosition)}
+                            description={t(job.jobDescription)}
+                            date={t(job.jobTime)}
+                            url={job.urlMoreInfo}
+                            urlLabel={t('knowMore')}
                         />
                     ))
                 }

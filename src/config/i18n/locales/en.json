@@ -20,6 +20,7 @@
   },
   "Experience": {
     "workExperience": "Work experience",
+    "knowMore": "Know more...",
     "jobPosition1": "Software Engineer - Edenia Labs - San José, Costa Rica",
     "jobDescription1": "I have been working as a fullstack engineer and frontend engineer, learning and developing decentralized applications. I have been working with technologies like JavaScript, HTML, Cascading Style Sheets (CSS), Material UI, Git, React, NextJs, Node with Hapi, Postgres, and GraphQL. Edenia is a company where we design and develop world-class innovative web3 solutions and applications using the latest in Industry 4.0 technologies.",
     "jobTime1": "June 2022 - September 2023",
@@ -44,7 +45,7 @@
   },
   "Education": {
     "education": "Education",
-    "knowMore":"Know more...",
+    "knowMore": "Know more...",
     "titleDate1": "February 2019 - November 2023",
     "titleDescription1": "Bachelor of Software Engineering",
     "institution1": "Instituto Tecnológico de Costa Rica",
