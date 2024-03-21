@@ -14,10 +14,10 @@ export const ContentBase: React.FC<ContentBaseProps> = ({ children, lng }) => {
   const t = useTranslations('Header')
 
   const linksList = [
+    { id: '3', url: 'about', label: t('about'), icon: 'InfoIcon' },
+    { id: '2', url: 'education', label: t('education'), icon: 'EducationIcon' },
     { id: '0', url: 'experience', label: t('experience'), icon: 'ExperienceIcon' },
     { id: '1', url: 'projects', label: t('projects'), icon: 'ProjectIcon' },
-    { id: '2', url: 'education', label: t('education'), icon: 'EducationIcon' },
-    { id: '3', url: 'about', label: t('about'), icon: 'InfoIcon' },
   ]
 
   return (

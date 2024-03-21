@@ -9,8 +9,8 @@ import "../globals.css";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Porfolio de Warner - Desarrollador y Programador Web con 4 años de experiencia',
-  description: 'Contrata a Warner para crear tu aplicación web o móvil. Desarrollador Frontend. Especializado en crear aplicaciones únicas.',
+  title: 'Warner Portfolio - Web Developer and Programmer with 4 years of experience',
+  description: 'Hire Warner to create your web or mobile application. Frontend Developer. Specialised in creating unique applications.',
   icons: {
     icon: [
       {

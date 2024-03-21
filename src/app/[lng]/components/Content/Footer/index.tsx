@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
                         </a> 
                     </li> 
                     <li> 
-                        <a href="#" className="hover:underline" >
+                        <a href="https://www.linkedin.com/in/warner-hurtado/" target="_blank" className="hover:underline" >
                             {t('contact')}
                         </a> 
                     </li> 

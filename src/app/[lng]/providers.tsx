@@ -16,7 +16,7 @@ const Providers: React.FC<ProvidersProps> = ({ children }) => {
 
     if (!mounted) return <>{children}</>;
 
-    return <ThemeProvider attribute='class'>
+    return <ThemeProvider attribute='class' defaultTheme='dark'>
         {children}
     </ThemeProvider>
 }
