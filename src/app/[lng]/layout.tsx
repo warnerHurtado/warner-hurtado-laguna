@@ -35,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang={lng} >
       <head>
+        <meta name="google-site-verification" content="3yDzkR5ciC5g6Zezd2ir7hdictdNu5FfVECl_QJoWX0" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
       </head>
       <body className={inter.className}>
