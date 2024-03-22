@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Warner Portfolio - Web Developer and Programmer with 4 years of experience',
-  description: 'Hire Warner to create your web or mobile application. Frontend Developer. Specialised in creating unique applications.',
+  description: 'Hire Warner to create your web or mobile application. Frontend Developer. Specialized in creating unique applications.',
   icons: {
     icon: [
       {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://warner-hurtado-laguna.vercel.app/",
     title: "Warner Hurtado - About",
-    description: "Software Engineer, specialised in frontend and backend development.",
+    description: "Software Engineer, specialized in frontend and backend development.",
     siteName: "Warner Hurtado Laguna",
     images: [{
       url: "https://warner-hurtado-laguna.vercel.app/images/opengraphImage.jpg",
