@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: "Software Engineer, specialised in frontend and backend development.",
     siteName: "Warner Hurtado Laguna",
     images: [{
-      url: "https://warner-hurtado-laguna.vercel.app/images/opengraphImage",
+      url: "https://warner-hurtado-laguna.vercel.app/images/opengraphImage.jpg",
     }],
   }
 }

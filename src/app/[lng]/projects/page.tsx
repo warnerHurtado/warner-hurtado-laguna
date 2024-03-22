@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: "https://warner-hurtado-laguna.vercel.app/",
     siteName: "Warner Hurtado Laguna",
     images: [{
-      url: "https://warner-hurtado-laguna.vercel.app/images/opengraphImage",
+      url: "https://warner-hurtado-laguna.vercel.app/images/opengraphImage.jpg",
     }],
   }
 }
