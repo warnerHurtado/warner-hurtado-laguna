@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Página "About" -->
+    <url>
+        <loc>https://warner-hurtado-laguna.vercel.app/es/about</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página "Experience" -->
+    <url>
+        <loc>https://warner-hurtado-laguna.vercel.app/es/experience</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página "Projects" -->
+    <url>
+        <loc>https://warner-hurtado-laguna.vercel.app/es/projects</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página "Education" -->
+    <url>
+        <loc>https://warner-hurtado-laguna.vercel.app/es/education</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
