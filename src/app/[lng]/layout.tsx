@@ -18,6 +18,16 @@ export const metadata: Metadata = {
         href: '/icons/favicon.png',
       },
     ]
+  },
+  openGraph: {
+    type: "website",
+    url: "https://warner-hurtado-laguna.vercel.app/",
+    title: "Warner Hurtado - About",
+    description: "Software Engineer, specialised in frontend and backend development.",
+    siteName: "Warner Hurtado Laguna",
+    images: [{
+      url: "https://warner-hurtado-laguna.vercel.app/images/opengraphImage",
+    }],
   }
 }
 

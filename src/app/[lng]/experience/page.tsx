@@ -5,6 +5,16 @@ import { ExperienceInformation } from "../components/Experience/ExperienceInform
 export const metadata: Metadata = {
     title: 'Warner - Experience',
     description: 'Warner has experience as Frontend Engineer and Fullstack Engineer along his career.',
+    openGraph: {
+        title: "Warner Hurtado - Experience",
+        description: "Warner Hurtado has knowlege with cutting edge technology.",
+        type: "website",
+        url: "https://warner-hurtado-laguna.vercel.app/",
+        siteName: "Warner Hurtado Laguna",
+        images: [{
+          url: "https://warner-hurtado-laguna.vercel.app/images/opengraphImage",
+        }],
+      }
   }
 
 const Experience: React.FC = () => {
