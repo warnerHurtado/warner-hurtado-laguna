@@ -7,6 +7,9 @@ import ButtonSocialPill from '../ButtonSocialPill'
 
 export const ProfileInfo: React.FC = () => {
     const t = useTranslations('Index')
+    const startYear = 2020; 
+    const currentYear: number = new Date().getFullYear();
+    const yearsOfExperience = currentYear - startYear;
 
     return <div>
         <div className='mt-5 lg:mt-2'>
@@ -37,7 +40,7 @@ export const ProfileInfo: React.FC = () => {
                 </a>
             </h1>
             <h2 className="text-xl lg:text-2xl text-balance max-w-[700px] " >
-                <span>{t('experience')}</span>
+                <span>+{yearsOfExperience} {t('experience')}</span>
                 <span className="text-yellow-800 dark:text-yellow-200">
                     {t('position')}
                 </span>
